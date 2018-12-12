@@ -4,4 +4,4 @@ install:
 	. ./venv/bin/activate && pip install -r requirements.txt && pip install -U flask-cors
 
 start:
-	python3 server.py
+	. ./venv/bin/activate && python3 server.py
