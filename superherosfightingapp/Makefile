@@ -4,5 +4,5 @@ install:
 	. ./venv/bin/activate && pip install -r requirements.txt
 
 start:
-	pip install flask
+	pip3 install flask
 	python3 server.py
