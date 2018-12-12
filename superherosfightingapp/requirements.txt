@@ -3,4 +3,5 @@ flask_compress
 requests
 request
 flask-cors
+flask_cors
 wheel
